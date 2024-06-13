@@ -26,10 +26,10 @@ contract MyToken {
     mapping (address => uint) public  balances;
 
     // mint function
-    function mint(address _address, uint _value) public  returns  (uint){
+    function mint(address _address, uint _value) public  returns  (address,uint){
         totalSupply = totalSupply + _value;
         balances[_address] = balances[_address] + _value;
-        return ( _value);
+        return (_address, _value);
     }
 
     // burn function
