@@ -1,6 +1,6 @@
 # CREATE A  TOKEM  IN SOLIDITY
 
-This Solidity program is a simple program that demonstrates how we can crewate a token, mint it, and burn it. The purpose of this program is to make you familier with basic functionality of the solidty programming language.
+This Solidity program is a simple program that demonstrates how we can create a token, mint it, and burn it. The purpose of this program is to make you familier with basic functionality of the solidty programming language.
 
 ## Description
 
@@ -16,7 +16,6 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 ```javascript
 // SPDX-License-Identifier: MIT
-/// SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
 /*
